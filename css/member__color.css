@@ -1,0 +1,459 @@
+@keyframes fadeIn {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* button-1 */
+.button-1:hover {
+    color: #ffcccc;
+}
+
+.button-1:hover span {
+    background-color: #ffcccc;
+}
+
+.button-1 .a1k60__member-img {
+    border: 2px solid #ffcccc;
+}
+
+
+/* button-2 */
+.button-2:hover {
+    color: #66FFFF;
+}
+
+.button-2:hover span {
+    background-color: #66FFFF;
+}
+
+.button-2 .a1k60__member-img {
+    border: 2px solid #66FFFF;
+}
+
+
+/* button-3 */
+.button-3:hover {
+    color: #ff6600;
+}
+
+.button-3:hover span {
+    background-color: #ff6600;
+}
+
+.button-3 .a1k60__member-img {
+    border: 2px solid #ff6600;
+}
+
+
+/* button-4 */
+.button-4:hover {
+    color: #ff66ff;
+}
+
+.button-4:hover span {
+    background-color: #ff66ff;
+}
+
+.button-4 .a1k60__member-img {
+    border: 2px solid #ff66ff;
+}
+
+
+/* button-5 */
+.button-5:hover {
+    color: #ccff33;
+}
+
+.button-5:hover span {
+    background-color: #ccff33;
+}
+
+.button-5 .a1k60__member-img {
+    border: 2px solid #ccff33;
+}
+
+
+/* button-6 */
+.button-6:hover {
+    color: #ff1493;
+}
+
+.button-6:hover span {
+    background-color: #ff1493;
+}
+
+.button-6 .a1k60__member-img {
+    border: 2px solid #ff1493;
+}
+
+
+/* button-7 */
+.button-7:hover {
+    color: #ffa500;
+}
+
+.button-7:hover span {
+    background-color: #ffa500;
+}
+
+.button-7 .a1k60__member-img {
+    border: 2px solid #ffa500;
+}
+
+
+/* button-8 */
+.button-8:hover {
+    color: #ff0000;
+}
+
+.button-8:hover span {
+    background-color: #ff0000;
+}
+
+.button-8 .a1k60__member-img {
+    border: 2px solid #ff0000;
+}
+
+
+/* button-9 */
+.button-9:hover {
+    color: #62faca;
+}
+
+.button-9:hover span {
+    background-color: #62faca;
+}
+
+.button-9 .a1k60__member-img {
+    border: 2px solid #62faca;
+}
+
+
+/* button-10 */
+.button-10:hover {
+    color: #ffa500;
+}
+
+.button-10:hover span {
+    background-color: #ffa500;
+}
+
+.button-10 .a1k60__member-img {
+    border: 2px solid #ffa500;
+}
+
+
+/* button-11 */
+.button-11:hover {
+    color: #ff4500;
+}
+
+.button-11:hover span {
+    background-color: #ff4500;
+}
+
+.button-11 .a1k60__member-img {
+    border: 2px solid #ff4500;
+}
+
+
+/* button-12 */ 
+.button-12:hover {
+    color: #ffff00;
+}
+
+.button-12:hover span {
+    background-color: #ffff00;
+}
+
+.button-12 .a1k60__member-img {
+    border: 2px solid #ffff00;
+}
+
+
+/* button-13 */ 
+.button-13:hover {
+    color: #ff7700;
+}
+
+.button-13:hover span {
+    background-color: #ff7700;
+}
+
+.button-13 .a1k60__member-img {
+    border: 2px solid #ff7700;
+}
+
+
+/* button-14 */ 
+.button-14:hover {
+    color: #BDB76B;
+}
+
+.button-14:hover span {
+    background-color: #BDB76B;
+}
+
+.button-14 .a1k60__member-img {
+    border: 2px solid #BDB76B;
+}
+
+
+/* button-15 */ 
+.button-15:hover {
+    color: #D2691E;
+}
+
+.button-15:hover span {
+    background-color: #D2691E;
+}
+
+.button-15 .a1k60__member-img {
+    border: 2px solid #D2691E;
+}
+
+
+/* button-16 */ 
+.button-16:hover {
+    color: #006400;
+}
+
+.button-16:hover span {
+    background-color: #006400;
+}
+
+.button-16 .a1k60__member-img {
+    border: 2px solid #006400;
+}
+
+
+/* button-17 */ 
+.button-17:hover {
+    color: #7476dc;
+}
+
+.button-17:hover span {
+    background-color: #7476dc;
+}
+
+.button-17 .a1k60__member-img {
+    border: 2px solid #7476dc;
+}
+
+
+/* button-18 */ 
+.button-18:hover {
+    color: #7FFFD4;
+}
+
+.button-18:hover span {
+    background-color: #7FFFD4;
+}
+
+.button-18 .a1k60__member-img {
+    border: 2px solid #7FFFD4;
+}
+
+
+/* button-19 */ 
+.button-19:hover {
+    color: #FF5187
+}
+
+.button-19:hover span {
+    background-color: #FF5187
+}
+
+.button-19 .a1k60__member-img {
+    border: 2px solid #FF5187
+}
+
+
+/* button-20 */ 
+.button-20:hover {
+    color: #008080;
+}
+
+.button-20:hover span {
+    background-color: #008080;
+}
+
+.button-20 .a1k60__member-img {
+    border: 2px solid #008080;
+}
+
+
+/* button-21 */ 
+.button-21:hover {
+    color: #7CFC00;
+}
+
+.button-21:hover span {
+    background-color: #7CFC00;
+}
+
+.button-21 .a1k60__member-img {
+    border: 2px solid #7CFC00;
+}
+
+
+/* button-22 */ 
+.button-22:hover {
+    color: #9900FF;
+}
+
+.button-22:hover span {
+    background-color: #9900FF;
+}
+
+.button-22 .a1k60__member-img {
+    border: 2px solid #9900FF;
+}
+
+
+/* button-23 */ 
+.button-23:hover {
+    color: #00FFFF;
+}
+
+.button-23:hover span {
+    background-color: #00FFFF;
+}
+
+.button-23 .a1k60__member-img {
+    border: 2px solid #00FFFF;
+}
+
+
+/* button-24 */ 
+.button-24:hover {
+    color: #FF9933;
+}
+
+.button-24:hover span {
+    background-color: #FF9933;
+}
+
+.button-24 .a1k60__member-img {
+    border: 2px solid #FF9933;
+}
+
+
+/* button-25 */ 
+.button-25:hover {
+    color: #FF00FF;
+}
+
+.button-25:hover span {
+    background-color: #FF00FF;
+}
+
+.button-25 .a1k60__member-img {
+    border: 2px solid #FF00FF;
+}
+
+
+/* button-26 */ 
+.button-26:hover {
+    color: #FFFF99;
+}
+
+.button-26:hover span {
+    background-color: #FFFF99;
+}
+
+.button-26 .a1k60__member-img {
+    border: 2px solid #FFFF99;
+}
+
+
+/* button-27 */ 
+.button-27:hover {
+    color: #C75052;
+}
+
+.button-27:hover span {
+    background-color: #C75052;
+}
+
+.button-27 .a1k60__member-img {
+    border: 2px solid #C75052;
+}
+
+
+/* button-28 */ 
+.button-28:hover {
+    color: #C7BF50;
+}
+
+.button-28:hover span {
+    background-color: #C7BF50;
+}
+
+.button-28 .a1k60__member-img {
+    border: 2px solid #C7BF50;
+}
+
+
+/* button-29 */ 
+.button-29:hover {
+    color: #50C7A3;
+}
+
+.button-29:hover span {
+    background-color: #50C7A3;
+}
+
+.button-29 .a1k60__member-img {
+    border: 2px solid #50C7A3;
+}
+
+
+/* button-30 */ 
+.button-30:hover {
+    color: #C78550;
+}
+
+.button-30:hover span {
+    background-color: #C78550;
+}
+
+.button-30 .a1k60__member-img {
+    border: 2px solid #C78550;
+}
+
+
+/* button-31 */ 
+.button-31:hover {
+    color: #BA7DFF;
+}
+
+.button-31:hover span {
+    background-color: #BA7DFF;
+}
+
+.button-31 .a1k60__member-img {
+    border: 2px solid #BA7DFF;
+}
+
+
+/* button-32 */ 
+.button-32:hover {
+    color: #71EBC4;
+}
+
+.button-32:hover span {
+    background-color: #71EBC4;
+}
+
+.button-32 .a1k60__member-img {
+    border: 2px solid #71EBC4;
+}
+
+

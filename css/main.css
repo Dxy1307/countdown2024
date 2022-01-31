@@ -1,0 +1,227 @@
+
+
+/* Button hover effect */
+.button {
+    position: relative;
+    display: inline-block;
+    padding: 15px 0;
+    background-color: transparent;
+    color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.button span {
+    position: absolute;
+    background-color: transparent;
+    display: block;
+    transition: all 0.5s ease;
+}
+
+.button span:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+}
+
+.button span:nth-child(2) {
+    right: -1px;
+    top: 0;
+    width: 3px;
+    height: 0;
+}
+
+.button span:nth-child(3) {
+    bottom: 0;
+    right: -1px;
+    width: 0;
+    height: 3px;
+}
+
+.button span:nth-child(4) {
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 3px;
+}
+
+.button:hover span:nth-child(odd) {
+    width: 100%;
+}
+
+.button:hover span:nth-child(even) {
+    height: 100%;
+}
+
+/* CSS */
+
+#full {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.a1k60__member {
+    display: flex;
+    align-items: center;
+}
+
+.a1k60__member-name {
+    font-size: 15px;
+    width: 130px;
+    position: relative;
+}
+
+.a1k60__member-img {
+    border-radius: 5px;
+    width: 100px;
+    animation: fadeIn ease-in 0.5s;
+    display: none;
+}
+
+.button:hover .a1k60__member-img {
+    display: block;
+}
+
+
+/* Left */
+.left {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.left .a1k60__member {
+    margin: 50px 0;
+}
+
+.a1k60__member-img-left {
+    position: absolute;
+    left: calc(100% + 8px);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Right */
+.right {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right .a1k60__member {
+    flex-direction: row-reverse;
+    margin: 50px 0;
+}
+
+.a1k60__member-img-right {
+    position: absolute;
+    right: calc(100% + 8px);
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* Top */
+.top {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.a1k60__member-top {
+    flex-direction: column;
+    margin: 10px 2px 0;
+}
+
+.a1k60__member-img-top {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Bottom */
+.bottom {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.a1k60__member-bottom {
+    flex-direction: column-reverse;
+    margin:0 2px 10px;
+}
+
+.a1k60__member-img-bottom {
+    position: absolute;
+    bottom: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* All */
+
+.a1k60__all {
+    /* z-index: -1; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.a1k60__member-img-all {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 550px;
+    width: fit-content;
+    border: 5px solid yellow;
+}
+
+.button-all:hover {
+    color: yellow;
+}
+
+.button-all:hover span {
+    background-color: yellow;
+}
+
+/* Dxy */
+
+.dxy {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.dxy-box {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+.dxy-img {
+    position: absolute;
+    left: -2px;
+    bottom: 1px;
+    height: 50px;
+    display: none;
+    border-radius: 50%;
+    border: 1px solid #F79934;
+}
+
+.dxy-box:active .dxy-img {
+    display: block;
+}
