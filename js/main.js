@@ -36,7 +36,7 @@ $(document).ready(
         clearInterval(x);
         document.getElementById("full").style.zIndex = "1";
         document.getElementById("container").style.zIndex = "0";
-        document.getElementById("container").innerHTML = "<h1>HAPPY NEW YEAR <br> <span>2022</span> </h1>";
+        document.getElementById("container").innerHTML = "<h1>HAPPY NEW YEAR <br> <span>2023</span> </h1>";
         var audio = new Audio("./song/Happy New Year.mp3");
         audio.play();
         Run();
