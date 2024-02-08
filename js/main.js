@@ -5,8 +5,8 @@ $(document).ready(
   
   function start() {
     document.getElementById('title').innerText='NEW YEAR COUNT DOWN'  
-    var countDownDate = new Date("2023  Jan 22 00:00:00").getTime();
-    var sayTime = new Date("2023 Jan 21 23:59:49").getTime();
+    var countDownDate = new Date("2024 Feb 8 21:00:00").getTime();
+    var sayTime = new Date("2024 Feb 8 20:59:49").getTime();
   
     // Update the count down every 1 second
     var x = setInterval(function () {
@@ -36,7 +36,7 @@ $(document).ready(
         clearInterval(x);
         document.getElementById("full").style.zIndex = "1";
         document.getElementById("container").style.zIndex = "0";
-        document.getElementById("container").innerHTML = "<h1>HAPPY NEW YEAR <br> <span>2023</span> </h1>";
+        document.getElementById("container").innerHTML = "<h1>HAPPY NEW YEAR <br> <span>2024</span> </h1>";
         var audio = new Audio("./song/Happy New Year.mp3");
         audio.play();
         Run();
