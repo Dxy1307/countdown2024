@@ -5,8 +5,8 @@ $(document).ready(
   
   function start() {
     document.getElementById('title').innerText='NEW YEAR COUNT DOWN'  
-    var countDownDate = new Date("2024 Feb 8 21:00:00").getTime();
-    var sayTime = new Date("2024 Feb 8 20:59:49").getTime();
+    var countDownDate = new Date("2024 Feb 10 00:00:00").getTime();
+    var sayTime = new Date("2024 Feb 9 23:59:49").getTime();
   
     // Update the count down every 1 second
     var x = setInterval(function () {
